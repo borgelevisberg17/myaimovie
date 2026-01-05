@@ -7,6 +7,12 @@ import { Team } from './components/Team'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
+/**
+ * The main App component for the portfolio website.
+ * It structures the page by assembling all the different sections of the site.
+ *
+ * @returns {JSX.Element} The fully assembled portfolio page.
+ */
 export default function App() {
   return (
     <div className="min-h-screen bg-background text-foreground" style={{ overflow: 'visible' }}>
